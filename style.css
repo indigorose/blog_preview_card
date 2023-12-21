@@ -1,0 +1,110 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+	--base-1: hsl(47, 88%, 63%);
+	--base-2: hsl(0, 0%, 100%);
+	--base-3: hsl(0, 0%, 7%);
+	--base-4: hsl(0, 0%, 50%);
+}
+
+body {
+	font-family: 'Figtree', Arial, Helvetica, sans-serif;
+	background-color: var(--base-1);
+}
+
+.card-container {
+	max-width: 90%;
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: var(--base-2);
+	border-radius: 20px;
+	box-shadow: rgb(0, 0, 0) 10px 10px 0px;
+}
+
+.card-grid {
+	padding: 0 0.8em;
+	max-width: 80%;
+	max-height: 100%;
+	margin: 10% auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-image {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.card-text-tag {
+	border: 1px solid var(--base-1);
+	background-color: var(--base-1);
+	max-width: fit-content;
+	padding: 5px 8px;
+	font-size: 0.8rem;
+	border-radius: 5px;
+}
+.text-date {
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+
+.card-text--heading {
+	font-size: 1.2rem;
+}
+
+.text--main {
+	font-size: 0.8rem;
+	font-weight: 300;
+	line-height: 1.2rem;
+	color: var(--base-4);
+}
+
+.card-text--footer {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+}
+
+.footer--image {
+	max-width: 100%;
+	height: auto;
+}
+.footer--text {
+	margin: auto 0.8em;
+	padding: 0.5em 0;
+	font-size: 0.8rem;
+}
