@@ -7,8 +7,10 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Blog Preview Card - Frontend Mentor</h1>
-		<main class="card-container" role="main contentinfo">
+		<header>
+			<h1>Blog Preview Card - Frontend Mentor</h1>
+		</header>
+		<main class="card-container" role="main" aria-roledescription="main">
 			<div class="card-grid">
 				<img
 					class="card-image"
@@ -17,7 +19,7 @@
 				/>
 				<div class="card-text">
 					<h2 class="card-text-tag">Learning</h2>
-					<h4 class="text-date">Published 21 Dec 2023</h4>
+					<h3 class="text-date">Published 21 Dec 2023</h3>
 					<a class="card-text--heading" href="#"
 						>HTML & CSS foundations</a
 					>
@@ -36,7 +38,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="attribution">
+		<footer role="contentinfo" class="attribution">
 			Challenge by
 			<a
 				href="https://www.frontendmentor.io?ref=challenge"
@@ -44,6 +46,6 @@
 				>Frontend Mentor</a
 			>. Coded by
 			<a href="https://github.com/indigorose">Karen Robertson</a>.
-		</div>
+		</footer>
 	</body>
 </html>
