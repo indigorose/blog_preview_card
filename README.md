@@ -23,9 +23,11 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
+Mobile Version
 ![Mobile Version](./assets/images/Screenshot%202024-01-02%20at%2013.59.23.png)
+Desktop Version
 ![Desktop Version](./assets/images/Screenshot%202024-01-02%20at%2013.59.51.png)
+Active States
 ![Active States](./assets/images/Screenshot%202024-01-02%20at%2014.00.03.png)
 
 ### Links
