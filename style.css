@@ -52,7 +52,7 @@ body {
 }
 
 .card-container {
-	max-width: 70%;
+	max-width: 65%;
 	border: 1px solid black;
 	margin: 10em auto;
 	background-color: var(--base-2);
@@ -61,8 +61,8 @@ body {
 }
 
 .card-grid {
-	padding: 0.5em 0.7em;
-	margin: 0.8em auto;
+	padding: 0.3em 0.35em;
+	margin: 0.65em auto;
 	max-width: 95%;
 	max-height: 100%;
 	border-radius: 10px;
@@ -73,14 +73,14 @@ body {
 	width: 100%;
 	overflow: hidden;
 	border-radius: 10px;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.6em;
 }
 
 .card-text-tag {
 	border: 1px solid var(--base-1);
 	background-color: var(--base-1);
 	max-width: fit-content;
-	margin: 0.5em 0;
+	margin: 0.35em 0;
 	padding: 0.4em 1em;
 	font-size: 0.8rem;
 	border-radius: 5px;
@@ -98,7 +98,7 @@ body {
 	color: var(--base-3);
 	text-decoration: none;
 	font-weight: 700;
-	margin: 0.8em 0;
+	margin: 0.6em 0;
 }
 
 .card-text--heading:hover {
@@ -117,8 +117,8 @@ body {
 .card-text--footer {
 	display: flex;
 	flex-direction: row;
-	padding: 0.5em 0;
-	margin: 0.5em 0 0 0;
+	padding: 0.2em 0;
+	margin: 0.2em 0 0 0;
 }
 
 .footer--image {
@@ -134,8 +134,8 @@ body {
 @media (min-width: 500px) {
 	.card-container {
 		margin: 50px auto;
-		max-width: 20em;
-		height: auto;
+		max-width: 18em;
+		height: 27.5em;
 	}
 	.card-grid {
 		max-width: 95%;
@@ -147,10 +147,10 @@ body {
 	.card-text-tag,
 	.text-date,
 	.card-text--heading {
-		margin: 0.5em 0;
+		margin: 0.4em 0;
 	}
 	.text--main {
-		padding: 1em 0;
+		padding: 0.6em 0;
 	}
 	.card-text--footer {
 		padding: 0 0 0 0;
